@@ -1,7 +1,5 @@
 // reccomended console window size: fullscreen
-// reccomended OS: windows 8 onwards / other compatible OS
-// fonts used: ASCII Mirror, Old Banner
-// OST credits: Cats&Soup (game available on iOS and Android)
+// sound credits: Cats&Soup (game available on iOS and Android)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,7 +49,7 @@ int main() {
 	ShowWindow(hwnd, SW_MAXIMIZE);
 
 	// change for new desktop
-	const char* gameOST = "C:\\Users\\Ali Nadir\\Desktop\\Time Warp Labyrinth\\twlcats.mp3";
+	const char* gameOST = "C:\\Users\\Me\\Desktop\\Time Warp Labyrinth\\twlcats.mp3";
 
 	char myCommand[256]; // buffer that holds in the command to run
 
@@ -89,7 +87,7 @@ void winning_message(int player) {
 	system("cls");
 
 	// change for new desktop
-	const char* effect = "C:\\Users\\Ali Nadir\\Desktop\\Time Warp Labyrinth\\won_game.wav";
+	const char* effect = "C:\\Users\\Me\\Desktop\\Time Warp Labyrinth\\won_game.wav";
 
 	char playSound[256]; // buffer that holds in the command to run
 
