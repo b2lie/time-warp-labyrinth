@@ -35,8 +35,8 @@ the other loses.
   `C:\\Users\\Me\\Downloads\\Time Warp Labyrinth\\twlcats.mp3`
 
   &emsp;&emsp;An easier way to do this is to open Windows Explorer, navigate to the folder where  
-  &emsp;&emsp;this project is located, and right-click the audio file.  
-  &emsp;&emsp;Select "Properties" and copy the "Location" that shows.<br/>
+  &emsp;&emsp;this project is located, right-click on the audio file then Select "Properties"  
+  &emsp;&emsp;and copy the "Location" that shows.<br/>
 
   - [ ] Replace `Program Files (x86)\\Windows Media Player\\wmplayer.exe\` in the line  
   `snprintf(myCommand, sizeof(myCommand), "start /B \"%s\\Program Files (x86)\\Windows Media Player\\wmplayer.exe\" \"%s\"", getenv("SystemDrive"), gameOST);` with the file  
