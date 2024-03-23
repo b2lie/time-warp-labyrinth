@@ -9,9 +9,9 @@ the other loses.
 
 ### 💻 Other features:
 - [ ] array-based maze generation
+- [ ] custom map creation for personalized gameplay
 - [ ] obstacles introduced when time is up (as penalty)
 - [ ] 3 pre-defined maps with varying difficulty levels (Easy, Medium & Hard)
-- [ ] custom map creation for personalized gameplay
 - [ ] handling inputs turn-by-turn, using real-time movement with console clearing for fairness
 - [ ] a theme song upon launching the program
 - [ ] sound effect for when a player wins
@@ -25,7 +25,7 @@ the other loses.
 - [ ] minimizing the noticeable delay in the movement of player 2 as compared to player 1
 - [ ] allowing the user to customize the players
 
-### 🔧 Tweaks/Steps Needed to Run TWL:
+### 🔧 Tweaks Needed to Run TWL:
 **Edit these paths in `main()`:**  
   - [ ] Line #52: Replace `C:\\Users\\Me\\Desktop\\Time Warp Labyrinth\\twlcats.mp3`  
   with the path to the directory where you've placed the twlcats.mp3 file in.  
