@@ -1,2 +1,3 @@
-# time-warp-labyrinth
-my first semester university project :)
+# Time Warp Labyrinth 🕓🏃🏻‍♀️
+
+## A console-based, two-player timed maze game based entirely in C
