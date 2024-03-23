@@ -27,20 +27,21 @@ the other loses.
 
 ### 🔧 Tweaks/Steps Needed to Run TWL:
 **Edit these paths in `main()`:**  
-  - [ ] Replace `C:\\Users\\Me\\Desktop\\Time Warp Labyrinth\\twlcats.mp3` in the line  
-  `const char* gameOST = "C:\\Users\\Me\\Desktop\\Time Warp Labyrinth\\twlcats.mp3";`  
-  with the path to the directory where you've placed the .mp3 file.  
+  - [ ] Line #52: Replace `C:\\Users\\Me\\Desktop\\Time Warp Labyrinth\\twlcats.mp3`  
+  with the path to the directory where you've placed the twlcats.mp3 file in.  
   For example, if you've downloaded this code and it appears in the Downloads folder,  
-  you'd need to replace it with such a path:  
-  `C:\\Users\\Me\\Downloads\\Time Warp Labyrinth\\twlcats.mp3`
+  you'd need to replace it with such a path: `C:\\Users\\Me\\Downloads\\Time Warp Labyrinth\\twlcats.mp3`
 
   &emsp;&emsp;An easier way to do this is to open Windows Explorer, navigate to the folder where  
-  &emsp;&emsp;this project is located, right-click on the audio file then Select "Properties"  
-  &emsp;&emsp;and copy the "Location" that shows.<br/>
+  &emsp;&emsp;this project is located, right-click on the audio file then Select "Properties" and  
+  &emsp;&emsp;copy the "Location" that shows.<br/>
 
-  - [ ] Replace `Program Files (x86)\\Windows Media Player\\wmplayer.exe\` in the line  
-  `snprintf(myCommand, sizeof(myCommand), "start /B \"%s\\Program Files (x86)\\Windows Media Player\\wmplayer.exe\" \"%s\"", getenv("SystemDrive"), gameOST);` with the file  
-path of your local media player. <br/><br/>
+  - [ ] Line #59 & #97: Replace `Program Files (x86)\\Windows Media Player\\wmplayer.exe\`  
+  with the file path of your local media player. <br/><br/>
+
+**Edit this path in `winning_message(int player)`:**  
+  - [ ] Line #90: Replace `Desktop\\Time Warp Labyrinth\\won_game.wav";` with the path  
+  to the directory where you've placed the won_game.wav file in. <br/><br/>  
   
   > ❗ Remember to replace the backslash `\` symbols in the copied path  
   (e.g., `C:\Users\Me\Downloads\twl.mp3`) with double backslashes `\\`  
